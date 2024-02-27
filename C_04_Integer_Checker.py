@@ -18,16 +18,16 @@ def int_check(question, low):
 
 
 # Main routine goes here
-for item in range(0, 1):
+for item in range(0, 2):
     integer = int_check("Integer: ", 0)
     print(integer)
 
-for item in range(0, 1):
+for item in range(0, 2):
     width = int_check("Width: ", 1)
     print(width)
 
 print()
 
-for item in range(0, 1):
+for item in range(0, 2):
     height = int_check("Height: ", 1)
     print(height)
